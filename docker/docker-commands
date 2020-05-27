@@ -1,0 +1,24 @@
+docker run <image-name> <command>
+
+docker ps <options>
+
+docker create <image name>
+
+docker start <container id>
+
+docker system prune
+
+docker logs <container id>
+
+docker stop <container id>
+
+docker kill <container id>
+
+docker exec -it <container id> <command>   (docker run -it busybox sh)
+
+docker build .
+
+docker build -f Dockerfile.dev .
+
+docker run -p 3000:3000 -v /app/node_modules -v pwd:/app c523177cbb9f
+
